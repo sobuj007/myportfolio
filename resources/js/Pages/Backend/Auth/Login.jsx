@@ -1,6 +1,7 @@
 import React from 'react'
 import lockimg from '../../../../assets/lock.jpg'
-import LoginFrom from '../../Component/LoginFrom'
+import LoginFrom from '../../../Component/LoginFrom'
+import FullScreenLayout from '@/Layouts/FullScreenLayout'
 export default function Login() {
 
     return (
@@ -28,3 +29,4 @@ export default function Login() {
         </div >
     )
 }
+Login.layout = (page) => <FullScreenLayout>{page}</FullScreenLayout>;

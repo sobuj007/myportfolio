@@ -1,0 +1,1 @@
+export const logoo = '../../assets/load.gif';
